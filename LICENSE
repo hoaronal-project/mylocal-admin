@@ -1,0 +1,14 @@
+Mục tiêu dự án:
++ Nâng cấp hệ thống cũ giảm thiểu nghẽn cổ chai khi giao dịch.
++ Tích hợp hệ thống website trading với tradingview (https://www.tradingview.com/).
++ Xây dựng app trading (Desktop, mobile) kết nối với Sở giao dịch chứng khoán Tokyo (sử dụng FIX Protocol).
++ Xây dựng hệ thống matching engine đáp ứng khớp lệnh 10000 lệnh/giây.
+Khó khăn gặp phải:
++ Đội ngũ developer chưa có kiến thức về chứng khoán.
++ Kết nối tradingview yêu cầu cung cấp các API đáp ứng được yêu cầu từ tradingview -> cần nâng cấp hệ thống cũ
++ Khó khăn trong việc kết nối tới sở giao dịch chứng khoán Tokyo
++ Thuật toán xử lí đặt lệnh (đúp lệnh, sai lệnh, bán khống...) phức tạp.
++ Bài toán tối ưu hóa tốc độ đặt 1 lệnh.
++ Bài toán xử lí lượng người dùng truy cập cao điểm (10000), lượng giao dịch đặt lệnh lớn (Thực tế 3000~4000 lệnh/giây, tối đa 9000~10000 lệnh/giây),
++ Bài toán scale hệ thống
+
